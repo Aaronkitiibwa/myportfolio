@@ -1,0 +1,215 @@
+/* Reset some default styles */
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Apply a background color and set font styles */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Navigation bar styles */
+  #navbar {
+    position: fixed;
+    padding: 10px;
+    top: 0;
+    left: 0; 
+    right: 0; 
+    background-color: #333;
+    color: #fff;
+    /* text-align: center; */
+    z-index: 1000; 
+  }
+  
+  #navbar ul {
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    
+  }
+  
+  #navbar li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  #navbar a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  /* Header and profile section styles */
+  .profile {
+    margin-top: 50px;
+    display: flex;
+   
+    justify-content:space-between; 
+    align-items: center; 
+    padding: 20px;
+    background-color: #dec8c8;
+    border-radius: 5px;
+  }
+  .profile h2{
+    font-size: 40px;
+  }
+  
+  
+  
+   
+   .header-img {
+    max-width: 100%;
+     align-self: center;
+    /* background-color: #333; */
+    
+  }
+   */
+  /* h1 {
+    font-size: 24px;
+    margin-top: 10px;
+  } */
+  
+  /* p {
+    font-size: 16px;
+    margin-top: 5px;
+  } */
+
+  
+  /* Projects section styles */
+  .profile-and-projects {
+    display: flex;
+    flex-direction: column; /* Stack sections vertically on smaller screens */
+    align-items: center; /* Center-align content horizontally */
+    text-align: center; /* Center-align text within the div */
+    background-color: #fff; /* Background color for the section */
+    padding: 20px;
+  }
+  
+  /* Profile Section Styles */
+  #projects {
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  
+  
+  #projects-header {
+   
+    text-align: center;
+  }
+  
+  .project-tile {
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+  }
+  
+ 
+  h3 {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  p {
+    font-size: 16px;
+    margin-top: 5px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  /* Contacts section styles */
+  #contacts {
+    background-color: #fff;
+    padding: 20px;
+  }
+  
+  #contacts-header {
+    text-align: center;
+  }
+  
+  #contact-p {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  #contact-links ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+  }
+  
+  #contact-links li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  #contact-links a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  /* Form styles */
+  form {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  fieldset {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  legend {
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .cards {
+      flex-direction: column;
+    }
+  }
+  
+  .my-work ul {
+    display:flex;
+/* background-color: blue; */
+justify-content: space-between;
+/* text-decoration: none; */
+  }
+
+  .my-work ul li{
+    /* text-decoration: none; */
+    list-style-type: none;
+    
+  }
